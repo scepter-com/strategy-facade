@@ -12,9 +12,6 @@ namespace Source
         {
             LauncherFacade.LoadScene(_scene, LoadType.ByName);
         }
-
-    
-        
     }
 }
 

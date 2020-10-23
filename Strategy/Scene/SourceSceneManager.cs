@@ -28,8 +28,8 @@ namespace Source.Strategy.Scene
                 Debug.Log(e);
                 throw;
             }
-
         }
+        
         
         public bool LoadSceneByName()
         {
@@ -43,8 +43,8 @@ namespace Source.Strategy.Scene
                 Debug.Log(e);
                 throw;
             }
-            
         }
+        
         
     }
 }
