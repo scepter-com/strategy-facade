@@ -1,4 +1,4 @@
-using Source.Strategy.Scene;
+using Source.RPG.Scene;
 using UnityEditor;
 
 namespace Source.Facades.Scene

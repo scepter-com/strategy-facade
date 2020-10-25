@@ -1,12 +1,12 @@
 using UnityEditor;
 
-namespace Source.Strategy.Scene
+namespace Source.RPG.Scene
 {
     public struct SceneData
     {
-        private string _name;
-        private int _id;
-        private SceneAsset _scene;
+        private readonly string _name;
+        private readonly int _id;
+        private readonly SceneAsset _scene;
         
         public string Name => _name;
         public int ID => _id;
@@ -18,5 +18,6 @@ namespace Source.Strategy.Scene
             _id = id;
             _scene = scene;
         }
+        
     }
 }

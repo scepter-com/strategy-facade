@@ -2,7 +2,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace Source.Strategy.Scene
+namespace Source.RPG.Scene
 {
     public class SourceSceneManager : ILoader
     {

@@ -1,4 +1,4 @@
-namespace Source.Strategy.Scene
+namespace Source.RPG.Scene
 {
     interface ILoader
     {

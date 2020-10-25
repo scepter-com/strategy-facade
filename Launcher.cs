@@ -7,10 +7,10 @@ namespace Source
     public class Launcher : MonoBehaviour
     {
         
-        [SerializeField] private SceneAsset _scene;
+        [SerializeField] private SceneAsset _bootScene;
         void Awake()
         {
-            LauncherFacade.LoadScene(_scene, LoadType.ByName);
+            LauncherFacade.LoadScene(_bootScene, LoadType.ByName);
         }
     }
 }
