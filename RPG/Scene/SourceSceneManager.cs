@@ -44,7 +44,5 @@ namespace Source.RPG.Scene
                 throw;
             }
         }
-        
-        
     }
 }
